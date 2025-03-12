@@ -1,0 +1,16 @@
+{
+  "name": "hotel-app",
+  "version": "1.0.0",
+  "description": "Aplicación web para reservas en un hotel ficticio",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "php -S localhost:8000 -t public"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  },
+  "devDependencies": {
+    "vite": "^0.10.3"
+  }
+}

@@ -1,0 +1,47 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F8F9FA;
+}
+
+/* Hero Banner */
+.container-fluid {
+    background-image: url(/images/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding: 0;
+}
+
+.filter{
+    background-color: rgba(11, 30, 45, 0.676);
+    padding: 80px 20px;
+    box-sizing: content-box;
+}
+
+/* Cards de Servicios */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Botón principal */
+.btn-primary {
+    background-color: #1A374D;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #F4A261;
+}
+
+/* Imagen de About */
+.img-fluid {
+    border-radius: 15px;
+}
+
